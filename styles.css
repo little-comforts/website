@@ -1,0 +1,124 @@
+header{
+    background-color: #d9d9d9;
+    position:fixed;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height:max;
+    width:100%;
+}
+
+body{
+    background-color: #d9d9d9;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    font-size:2em;
+    font-family: Helvetica, sans-serif;
+    padding:30px; 
+    text-align: center;
+}
+
+#lc {
+    max-width: auto;
+    height:60px;
+    border-radius: 40px;
+    display: inline-block;
+}
+#leaf{
+    height:1.2rem;
+    display:inline;
+    margin-left:2px;
+}
+
+.prodImg{
+    padding-top:50px;
+    display:block;
+    height:200px;
+}
+
+#title{
+    display:inline-block;
+    font-family:Helvetica;
+    vertical-align:text-bottom;
+    font-size:1.6em;
+}
+
+#abtUs p {
+    font-size:1.4em;
+    padding:30px 25% 30px 25%;
+}
+
+#napkin{
+    margin-left:20px;
+}
+
+.label{
+    font-size:1.2em;
+    font-family: sans-serif;
+    margin-left:30px;
+    text-align:center;
+    color:black;
+    font-style: normal;
+}
+
+#container{
+    padding-top:100px;
+}
+
+#items{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+    justify-content: center;
+}
+
+.tile{
+    padding: 0 50px;
+    margin:30px;
+    width:auto;
+    outline: auto;
+    outline-color: rgba(0, 0, 0, 0.5);
+}
+
+.tile a{
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #cbcbcb;
+    color: #383737b6;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:Helvetica;
+    padding-bottom: 30px;
+}
+
+.contact-info h3 {
+    margin-bottom: 15px;
+    font-size:1.5em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size:1.2em;
+}
+
+.contact-info a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
